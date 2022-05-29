@@ -57,6 +57,7 @@ header nav ul{
 header nav ul li a{
     padding: 10px 15px;
     font-size: 1.55vw;
+    color: var(--secondary-color);
 }
 
 /* end header styling */
@@ -126,6 +127,24 @@ header nav ul li a{
     padding-right: 20px;
 
 }
+
+.flex-row address{
+    padding: 20px;
+}
+.flex-row address ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.flex-row address ul li a{
+    padding: 10px 15px;
+    font-size: 1.55vw;
+    font-style: normal;
+    color: var(--fourth-color);
+}
+
 
 
 .border{
