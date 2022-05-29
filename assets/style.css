@@ -1,0 +1,134 @@
+:root{
+    --primary-color:#87CEEB;
+    --secondary-color: #00008B; 
+    --tertiary-color: #dcd7d7;
+    --fourth-color: #3d3d3d;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header styling starts */
+header{
+    padding: 10px 10px 10px 0;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index:9999;
+    
+}
+.name {
+    background-color: var(--secondary-color);
+    border: var(--secondary-color);
+    padding: 15px;
+    width: auto;
+    margin: 0;
+   
+}
+.name a {
+    color: var(--primary-color);
+    font-size: 36px;
+    text-decoration: none;
+    margin: 0; 
+}
+
+header nav{
+    padding: 20px;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a{
+    padding: 10px 15px;
+    font-size: 1.55vw;
+}
+
+/* end header styling */
+
+/* styling for background image and portfolio image begins */
+
+.initial {
+    /* Website link where background image was taken https://coolbackgrounds.io/ */
+    background-image: url(./images/cool-background.png);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-position: 80%;
+    padding: 20px;
+   
+}
+.initial-img{
+    flex: 0 32%;
+    margin: 15px 0 15px 0;
+}
+.initial-img img{
+    max-width: 300px;
+    max-height: auto;
+    
+}
+.subtitle {
+    background-color: var(--secondary-color);
+    border: var(--secondary-color);
+    padding: 20px;
+    margin-left: auto;
+    align-self: flex-end;
+}
+
+/* styling for background image and portfolio image ends */
+
+/*Styling for main content begins */
+
+.info {
+    background: var(--tertiary-color);
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.flex-row h2 {
+    color: var(--fourth-color);
+    font-weight:bold;
+    font-size: 36px;
+    flex: 0 5px;
+    text-align: right;
+    padding-right: 10px;
+    
+}
+
+.body{
+    color: var(--fourth-color);
+    flex:12;
+    padding-left: 20px;
+    border-left: solid 3px var(--fourth-color);
+    padding-right: 20px;
+
+}
+
+
+.border{
+    border-color: var(--fourth-color);
+    border-right: 3px solid;
+}
