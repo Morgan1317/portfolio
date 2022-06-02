@@ -105,6 +105,7 @@ header nav ul li a{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    flex: 10px;
     padding: 20px;
     background: var(--tertiary-color);
     
@@ -114,21 +115,21 @@ header nav ul li a{
     color: var(--fourth-color);
     font-weight:bold;
     font-size: 36px;
-    flex: 0 5px;
+    flex: 1 10%;
     text-align: right;
     padding-right: 10px;
-    width: 30%;
+    
     
 }
 
 .body{
     color: var(--fourth-color);
-    flex:12;
+    flex:1 70%;
     padding-left: 20px;
     border-left: solid 3px var(--fourth-color);
     padding-right: 20px;
     background-color: var(--tertiary-color);
-    width: 70%;
+
 
 }
 
