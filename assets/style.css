@@ -94,6 +94,7 @@ header nav ul li a{
 
 /* styling for background image and portfolio image ends */
 
+
 /*Styling for main content begins */
 
 .info {
@@ -103,9 +104,9 @@ header nav ul li a{
 .flex-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
+    background: var(--tertiary-color);
     
 }
 
@@ -116,6 +117,7 @@ header nav ul li a{
     flex: 0 5px;
     text-align: right;
     padding-right: 10px;
+    width: 30%;
     
 }
 
@@ -125,6 +127,8 @@ header nav ul li a{
     padding-left: 20px;
     border-left: solid 3px var(--fourth-color);
     padding-right: 20px;
+    background-color: var(--tertiary-color);
+    width: 70%;
 
 }
 
@@ -135,7 +139,6 @@ header nav ul li a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
 }
 .flex-row address ul li a{
@@ -144,10 +147,33 @@ header nav ul li a{
     font-style: normal;
     color: var(--fourth-color);
 }
-
-
-
-.border{
-    border-color: var(--fourth-color);
-    border-right: 3px solid;
+.project{
+    background: var(--tertiary-color);
+    position: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
 }
+.image {
+    flex: 100%;
+    padding: 5px;
+}
+  .text-box {
+    background-color: var(--primary-color);
+    border: var(--primary-color);
+    padding: 15px;
+    width: auto;
+    margin: 0;
+   
+}
+.text-box h4 {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin: 0; 
+}
+.project img {
+    width:  100%;
+    height: 300px;
+    object-fit: cover;
+}
+
