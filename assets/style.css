@@ -1,5 +1,5 @@
 :root{
-    --primary-color:#87CEEB;
+    --primary-color:#00b0f6ba;
     --secondary-color: #00008B; 
     --tertiary-color: #dcd7d7;
     --fourth-color: #3d3d3d;
@@ -169,11 +169,21 @@ header nav ul li a{
     padding: 5px; 
     border: solid var(--primary-color) 3px;
     background-color: var(--primary-color);
+    position: relative;
 }
 .image img{
     width: 100%;
     max-height: 150px;
     object-fit: cover;
+}
+
+.image h2{
+    position: absolute;
+    bottom: 40px;
+    border: solid 3px var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1.55vw;
 }
 .project1{
     grid-column-start: 1;
