@@ -1,11 +1,11 @@
 # portfolio
 ### Professional Portfolio Mockup ###
 
-***PURPOSE***
+**PURPOSE**
 
 The following is a professional portfolio mockup, that is set-up to be easily updated as more projects get completed, or changes are made to anything. 
 
-***Summary***
+**Summary**
 
 The following porfolio, has been set up to support my, Morgan Holcombs, work. It is mostly filled with mock-up's and filler text, however, as I complete more projects, I will be able to plug them in with ease. 
 
