@@ -25,7 +25,7 @@ header{
     justify-content: space-between;
     position: sticky;
     position: -webkit-sticky;
-    top: 0;
+    top: 0; 
     z-index:9999;
     
 }
@@ -39,7 +39,7 @@ header{
 }
 .name a {
     color: var(--primary-color);
-    font-size: 36px;
+    font-size: 1em;
     text-decoration: none;
     margin: 0; 
 }
@@ -80,7 +80,7 @@ header nav ul li a{
     margin: 15px 0 15px 0;
 }
 .initial-img img{
-    max-width: 300px;
+    max-width: 20vw;
     max-height: auto;
     
 }
@@ -90,6 +90,9 @@ header nav ul li a{
     padding: 20px;
     margin-left: auto;
     align-self: flex-end;
+}
+.subtitle h2{
+    font-size: 1.5vw;
 }
 
 /* styling for background image and portfolio image ends */
@@ -114,7 +117,7 @@ header nav ul li a{
 .flex-row h2 {
     color: var(--fourth-color);
     font-weight:bold;
-    font-size: 26px;
+    font-size: 1.5vw;
     flex: 1 2%;
     text-align: right;
     padding-right: 10px;
@@ -135,7 +138,7 @@ header nav ul li a{
 }
 .flex-row address ul li a{
     padding: 10px 15px;
-    font-size: 1.55vw;
+    font-size: 1vw;
     font-style: normal;
     color: var(--fourth-color);
 }
@@ -164,6 +167,10 @@ header nav ul li a{
     background-color: var(--tertiary-color);
 
 }
+
+.body p {
+    font-size: 1vw;
+}
  .image {
     flex: 100%;
     padding: 5px; 
@@ -179,11 +186,11 @@ header nav ul li a{
 
 .image h2{
     position: absolute;
-    bottom: 40px;
+    bottom: 10%;
     border: solid 3px var(--primary-color);
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    font-size: 1.55vw;
+    font-size: 1.0vw;
 }
 .project1{
     grid-column-start: 1;
@@ -216,7 +223,7 @@ header nav ul li a{
     grid-row-end: 6;
 }
 
-  .text-box {
+.text-box {
     background-color: var(--primary-color);
     border: var(--primary-color);
     padding: 15px;
@@ -289,4 +296,10 @@ header nav ul li a{
       height: 25px;
       object-fit: cover;
   }
+  @media screen and (max-width: 575px){
+      body {
+          background-color: (--tertiary-color);
+      }
+
+}
 }
