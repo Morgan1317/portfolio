@@ -42,4 +42,4 @@ Below is an image of what the portfolio currently looks like.
 ***LINK TO DEPLOYED APPLICATION***
 
 The link to the portfolio can be found below. 
-https://morgan1317.github.io/portfolio/
+https://morgan1317.github.io/portfolio_mockup_MH/
